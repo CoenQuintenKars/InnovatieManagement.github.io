@@ -1,0 +1,62 @@
+<!doctype html>
+<Html>
+
+<Head>
+		<Title>Klussenbedrijf John Thille</Title>
+		<link href="Stylesheet.css" rel="stylesheet" type="text/css"/>
+</Head>
+	
+<body>
+	
+	<header>
+		<h1 class="titel"><a href="Index.html"><img  height="100px" width="100px" src="afbeeldingen/JohnThille.PNG"></a></h1>
+	</header>
+
+		<nav>
+			<ul><h1>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="Diensten.html">Diensten</a></li>				
+				<li><a href="Gallerij.html">Gallerij</a></li>
+				<li class="contact"><a href="Contact.html">Contact</a></li>
+			</h1></ul>
+		</nav>
+
+    
+    <div class="container2">   
+    <div class="container3">
+        <div class="gegevens">
+            <h2>Klussenbedrijf John Thille</h2>
+
+            <img id="contact" src="afbeeldingen/mailentelefoon.png" height="100px">    
+        </div>   
+        
+        <div class="vlakcontact">
+            <form name="contactform" method="post" action="contactformulier.php">
+            <label>Naam</label><br>
+            <input name="naam" type="text" placeholder="Voor en achternaam..."><br>
+            
+            <label>E-mailadres</label><br>
+            <input name="email" type="text" placeholder="E-mailadres..."><br>
+            
+            <label>Soort contact</label><br>
+            <select name="soort">
+                <option>Offerteaanvraag Timmerwerken</option>
+                <option>Offerteaanvraag Schoonmaakdiensten</option>
+                <option>Overige vragen</option>
+            </select><br>
+            
+            <label>Opmerking</label><br>
+            <textarea name="opmerking" type="text" placeholder="Opmerkingsveld..." style="height:200px; border-radius:4px;"></textarea><br>
+            <input id="knop2" type="submit" value="Verstuur">    
+            </form>
+        </div>
+        
+     </div>
+    </div>
+
+	<footer>
+		<h3>Klussenbedrijf John Thille ©2017</h3>
+	</footer>
+    
+	</body>
+</Html>
