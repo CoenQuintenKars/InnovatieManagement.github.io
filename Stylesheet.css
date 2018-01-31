@@ -1,0 +1,397 @@
+/* algemeen */
+@font-face {
+  font-family: 'Reitam Regular';
+  src: url('Reitam Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+ }
+
+body{
+	font-family: avenir;
+	margin: 0;
+    background: #F2F2F2;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+/* navigatie en logo */
+header{
+	text-align: center;
+    padding-left: 0px;
+	padding-bottom: 0px;
+    padding-top: 0;
+	width: 100%;
+	margin: 0;
+	height: 85px;
+    display: inline-block;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+    margin-left: 0;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+	text-decoration: none;
+	color: black;
+    display: inline-block;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li{
+	display: inline-block;
+	color: black;
+	margin: 0 0 10px 0;
+	padding: 8px 15px 8px 15px;
+}
+
+nav ul li.home{
+	border-bottom: 2px solid;
+}
+
+nav ul li.Begeleiding{
+	border-bottom: 2px solid;
+}
+
+nav ul li.Scenarios{
+	border-bottom: 2px solid;
+}
+
+nav ul li:hover{
+	background: #F2F2F2;
+    color: #F1C712;
+	border-bottom: 2px solid;
+	height: 50%;
+}
+
+nav ul li a:hover{
+   color: #F1C712; 
+}
+
+
+
+/* Home */
+div.teksthome1{
+    background: white;
+    margin: 0 50px;
+    padding: 20px 100px;
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    z-index: 0;
+}
+
+div.tekshome1 video{
+    margin-top: 20px;
+}
+
+div.teksthome1 h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.teksthome1 p{
+    display: block;
+    float: left;
+    padding-bottom: 0px;
+}
+
+div.teksthome{
+    background: white;
+    margin: 0 50px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    height: auto;
+    text-align: justify;
+    z-index: 0;
+}
+
+div.teksthome h1{
+    text-align: center;
+}
+
+div.teksthome p{
+    padding-bottom: 20px;
+}
+
+div.teksthome img{
+    width: 25%;
+}
+
+#autarkie{
+    width: 400px;
+}
+
+#team3{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#team1{
+    width: 50%;
+}
+
+#team32{
+    width: 50%;
+    min-width: 500px;
+}
+
+#team2{
+    width: 40%;
+    min-width: 300px;
+}
+
+#team4{
+    width: 55%;
+}
+
+div.teksthomescenarios{
+    background: white;
+    margin: 0 50px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    height: auto;
+    text-align: justify;
+    z-index: 0;
+}
+
+
+div.teksthomebegeleiding{
+    background: white;
+    margin: 0 50px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    z-index: 0;
+}
+
+div.teksthomebegeleiding h1{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+div.teksthomebegeleiding h2{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+div.teksthomebegeleiding p{
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+div.teksthomebegeleiding img{
+    border-radius: 0px;
+}
+
+div.teksthomebegeleiding img{
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+div.teksthomescenarios p{
+   
+    padding-bottom: 20px;
+}
+
+div.vlak1{
+    background: #212121;
+    padding-bottom: 450px;
+    margin-top: -400px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakteam1{
+    background: #212121;
+    padding-bottom: 1700px;
+    margin-top: -1649px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakteam2{
+    background: #212121;
+    padding-bottom: 1600px;
+    margin-top: -1561px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakteam3{
+    background: #212121;
+    padding-bottom: 1910px;
+    margin-top: -1870px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakteam4{
+    background: #212121;
+    padding-bottom: 1670px;
+    margin-top: -1630px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakteam5{
+    background: #212121;
+    padding-bottom: 1300px;
+    margin-top: -1254px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlak{
+    background: #212121;
+    padding-bottom: 700px;
+    margin-top: -599px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakbegeleiding{
+    background: #212121;
+    padding-bottom: 740px;
+    margin-top: -711px;
+    position: relative;
+    z-index: -2;
+}
+
+div.vlakscenarios{
+    background: #212121;
+    padding-bottom: 400px;
+    margin-top: -309px;
+    position: relative;
+    z-index: -2;
+}
+
+video{
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+
+iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+div.scenarios{
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: center;
+}
+
+div.scenarios p{
+    margin: 0;
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.scenarios a{
+    color: white;
+}
+
+div.scenarios img{
+    margin: 0;
+    padding-bottom: 10px;
+    
+}
+
+div.knop{
+    background: #212121;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px
+}
+
+.teksthome1 iframe{
+    display: inline-block;
+    margin-bottom: 125px;
+    margin-left: 70px;
+}
+
+.teksthome1 p{
+    width: 40%;
+    display: inline-block;
+    text-align: justify;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.teksthome video{
+    display: block;
+    margin: 0 auto;
+}
+
+#pdf{
+    display: block;
+    margin: 0 auto;
+    width: 15%; 
+}
+
+div.teksthome a{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+div.scenarios a{
+    color: black;
+}
+/* footer */
+h3{
+    clear: all;
+    color: black;
+    background: none;
+    margin-right: 0px;
+    text-align: center;
+    padding-top: 15px;
+    bottom: 0;
+}
+
+@media screen and (max-width:1300px){
+    div.teksthome1 p{
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .teksthome1 iframe, video{
+        margin: 0;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and (max-width:1408px){
+    div.teksthomescenarios {
+        
+    }
+    
+    div.scenarios{
+    width: 200px;
+    }
+}
